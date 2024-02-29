@@ -37,6 +37,38 @@ data = pipeline(data, 'data/data.csv')
 <br>
 
 3.Run alpha.ipynb to train the reinforment learning model and the result will be returned at the end of the test.
+<br>
+<br>
+# Dependencies
+
+- `gym`
+- `stable_baselines3`
+- `numpy`
+
+For the dependecies for the features used:
+
+```
+%pip install ccxt
+%pip install pandas
+%pip install jupyterlab
+%pip install gym==0.22
+%pip install feature_engine
+%pip install tensorforce
+%pip install scikit-learn
+%pip install optuna
+%pip install quantstats==0.0.50
+%pip install ta
+%pip install TA-Lib
+%pip install git+https://github.com/twopirllc/pandas-ta@development
+
+# If using conda 
+%conda install -c conda-forge ta
+%conda install -c conda-forge ta-lib
+```
+
+<br>
+<br>
+<br>
 
 
 
